@@ -9,5 +9,5 @@ func main() {
 	drawContext.DrawCircle(500, 500, 400)
 	drawContext.SetRGB(0, 0, 0)
 	drawContext.Fill()
-	drawContext.SavePNG("out.png")
+	drawContext.SavePNG("circle.png")
 }
